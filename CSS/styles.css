@@ -9,13 +9,13 @@
 
 .header {
     background-image: url('../images/banner/banner2.png');
-    height: 800px;
+    height: 100vh;
 }
 
 .header-content {
-    padding: 200px 230px 130px 850px;
+    padding: 200px 230px 130px 750px;
     text-align: right;
-    width: 535px;
+    width: 530px;
 }
 
 .header-content .title {
@@ -113,4 +113,89 @@ main {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+
+/* positive section styles */
+
+.positive {
+    margin-top: 124px;
+    background-image: url('../images/watch.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.positive-content {
+    padding: 59px 600px 59px 64px;
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.positive-content button {
+    border: 0;
+    border-radius: 5px;
+    color: #fd6e0a;
+    background-color: #ffffff;
+    padding: 21px 36px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* footer styles */
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    gap: 330px;
+    padding: 130px 230px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    margin-bottom: 24px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 250px;
+    background-color: #151414;
+    outline: none;
+    border: 1px solid white;
+}
+
+.subscribe button {
+    border-radius: 10px;
+    padding: 15px 36px;
+    color: #f15b22;
+    font-weight: 600;
+    font-size: 20px;
 }
