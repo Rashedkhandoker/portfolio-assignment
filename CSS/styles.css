@@ -120,7 +120,8 @@ main {
 
 .positive {
     margin-top: 124px;
-    background-image: url('../images/watch.png');
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    background-blend-mode: lighten;
     height: 300px;
     background-repeat: no-repeat;
     border-radius: 5px;
