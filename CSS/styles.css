@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* header styles */
+
+.header {
+    background-image: url('../images/banner/banner2.png');
+    height: 800px;
+}
+
+.header-content {
+    padding: 200px 230px 130px 850px;
+    text-align: right;
+    width: 535px;
+}
+
+.header-content .title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.header-content .description {
+    margin-bottom: 24px;
+    color: #444343;
+}
+
+.header-btn {
+    border: 0;
+    background-color: #fd6e0a;
+    color: #ffffff;
+    padding: 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+/* main section styles */
+
+main {
+    margin: 130px 230px;
+}
+
+
+/* failures section */
+
+.failures {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.failures-title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failures-description {
+    margin-bottom: 20px;
+}
+
+.failures-content ul {
+    list-style: none;
+}
+
+.failures-content ul li {
+    margin-bottom: 8px;
+}
+
+.failures-content ul li i {
+    margin-right: 8px;
+}
